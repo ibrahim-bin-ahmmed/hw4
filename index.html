@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>প্রোডাক্ট লিস্ট</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>আমাদের প্রোডাক্টসমূহ</h1>
+    <div class="container">
+        <div class="product" data-name="প্রোডাক্ট 1" data-price="100">
+            <img src="iphone.jpg" alt="image">
+            <h2>iPhone</h2>
+                <p class="product-price">মূল্য: 100 টাকা</p>
+                <button class="decrease">−</button>
+                <span class="quantity">0</span>
+                <button class="increase">+</button>
+                <button class="add-to-cart">কার্টে যোগ করুন</button>
+        </div>
+        <div class="product" data-name="প্রোডাক্ট 2" data-price="200">
+            <img src="google.jpeg" alt="image">
+            <h2>Google Pixel</h2>
+            <p class="product-price">মূল্য: 200 টাকা</p>
+            <button class="decrease">−</button>
+            <span class="quantity">0</span>
+            <button class="increase">+</button>
+            <button class="add-to-cart">কার্টে যোগ করুন</button>
+        </div>
+        <div class="product" data-name="প্রোডাক্ট 3" data-price="300">
+            <img src="oneplus.png" alt="image">
+            <h2>One Plus</h2>
+            <p class="product-price">মূল্য: 300 টাকা</p>
+            <button class="decrease">−</button>
+            <span class="quantity">0</span>
+            <button class="increase">+</button>
+            <button class="add-to-cart">কার্টে যোগ করুন</button>
+        </div>
+        <div class="product" data-name="প্রোডাক্ট 4" data-price="400">
+            <img src="mi.png" alt="image">
+            <h2>MI</h2>
+            <p class="product-price">মূল্য: 400 টাকা</p>
+            <button class="decrease">−</button>
+            <span class="quantity">0</span>
+            <button class="increase">+</button>
+            <button class="add-to-cart">কার্টে যোগ করুন</button>
+        </div>
+        <div class="product" data-name="প্রোডাক্ট 5" data-price="500">
+            <img src="infinix.png" alt="image">
+            <h2>infinix</h2>
+            <p class="product-price">মূল্য: 500 টাকা</p>
+            <button class="decrease">−</button>
+            <span class="quantity">0</span>
+            <button class="increase">+</button>
+            <button class="add-to-cart">কার্টে যোগ করুন</button>
+        </div>
+    </div>
+    <div class="cart">
+        <button id="cart-button">কার্ট (<span id="total-count">0</span>)</button>
+
+        <div class="cart-popup" id="cart-popup">
+            <h3>আপনার কার্ট</h3>
+            <ul id="cart-items"></ul>
+            <h4 id="total-price">মোট মূল্য: 0 টাকা</h4> <!-- মোট মূল্য দেখাবে -->
+            <button id="close-popup">বন্ধ করুন</button>
+        </div>
+        
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
